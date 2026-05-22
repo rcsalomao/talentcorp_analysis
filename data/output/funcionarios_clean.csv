@@ -1,0 +1,21 @@
+﻿id,nome,cpf,email,telefone,cargo,departamento,salario,data_admissao,estado_civil,cidade,estado,regime,email_valido,salario_num,nivel
+F001,Ana Paula Souza,123.456.789-00,ana.souza@talentcorp.com.br,(11) 98765-4321,Analista de RH,RH,"R$ 4.500,00",01/03/2021,Solteiro(a),São Paulo,SP,CLT,True,4500.0,Operacional
+F002,Carlos Eduardo Mendes,987.654.321-00,carlos.mendes@talentcorp,(11) 98765-4322,Gerente Comercial,Comercial,"R$ 9.800,00",15/07/2019,Casado(a),São Paulo,SP,CLT,False,9800.0,Liderança
+F003,Mariana Ferreira Lima,111.222.333-44,mariana.lima@talentcorp.com.br,(21) 97654-3210,Desenvolvedor(a),TI,"R$ 7.200,00",15/01/2022,Casado(a),Rio de Janeiro,RJ,PJ,True,7200.0,Operacional
+F004,Roberto Alves,222.333.444-55,roberto@,(31) 3456-7890,Analista Financeiro,Financeiro,"R$ 5.100,00",10/01/2020,Divorciado(a),Belo Horizonte,MG,CLT,False,5100.0,Operacional
+F005,Julia Santos,333.444.555-66,julia.santos@talentcorp.com.br,(85) 99123-4567,Estagiário(a),Comercial,"R$ 1.200,00",01/06/2023,Solteiro(a),Fortaleza,CE,Estágio,True,1200.0,Estagiário
+F006,Pedro Augusto Nunes,444.555.666-77,pedro.nunes@talentcorp.com.br,(47) 92345-6789,Desenvolvedor(a) Sênior,TI,"R$ 12.000,00",05/03/2018,Casado(a),Joinville,SC,PJ,True,12000.0,Operacional
+F007,Fernanda Rocha,555.666.777-88,fernanda.rocha@talentcorp.com.br,(11) 94567-8901,Analista Comercial,Comercial,"R$ 3.800,00",01/09/2023,Solteiro(a),São Paulo,SP,CLT,True,3800.0,Operacional
+F008,Thiago Oliveira Santos,666.777.888-99,thiago.santos@talentcorp.com.br,(71) 98001-2345,Gerente de TI,TI,"R$ 14.500,00",20/04/2017,Casado(a),Salvador,BA,CLT,True,14500.0,Liderança
+F009,Lucia Menezes,777.888.999-00,lucia.menezes@talentcorp.com.br,(61) 98765-1234,Analista de RH,RH,"R$ 4.200,00",10/08/2022,Solteiro(a),Brasília,DF,CLT,True,4200.0,Operacional
+F010,Marcos Teixeira,888.999.000-11,marcos.teixeira@talentcorp.com.br,(51) 93456-7890,Analista Financeiro,Financeiro,"R$ 5.300,00",15/02/2021,Casado(a),Porto Alegre,RS,CLT,True,5300.0,Operacional
+F011,Beatriz Lima,999.000.111-22,beatriz.lima@,(41) 92222-3333,Estagiário(a),TI,"R$ 1.200,00",15/01/2024,Solteiro(a),Curitiba,PR,Estágio,False,1200.0,Estagiário
+F012,Rafael Costa,000.111.222-33,rafael.costa@talentcorp.com.br,(11) 91111-2222,Desenvolvedor(a) Pleno(a),TI,"R$ 8.500,00",03/06/2020,Solteiro(a),São Paulo,SP,PJ,True,8500.0,Operacional
+F013,Camila Pereira,111.222.333-44,camila.pereira@talentcorp.com.br,(21) 93333-4444,Analista Comercial,Comercial,"R$ 3.900,00",01/11/2022,Casado(a),Rio de Janeiro,RJ,CLT,True,3900.0,Operacional
+F014,Diego Souza Martins,222.333.444-55,diego.martins@talentcorp.com.br,(81) 94444-5555,Gerente Financeiro,Financeiro,"R$ 11.000,00",01/09/2016,Divorciado(a),Recife,PE,CLT,True,11000.0,Liderança
+F015,Patricia Alves,333.444.555-66,patricia.alves@talentcorp.com.br,(62) 95555-6666,Analista de RH,RH,"R$ 4.300,00",20/04/2023,Casado(a),Goiânia,GO,CLT,True,4300.0,Operacional
+F016,Lucas Ferreira,444.555.666-77,lucas.ferreira@talentcorp.com.br,(11) 96666-7777,Analista Comercial,Comercial,"R$ 3.700,00",10/05/2023,Solteiro(a),São Paulo,SP,CLT,True,3700.0,Operacional
+F017,Amanda Ribeiro,555.666.777-88,amanda.ribeiro@talentcorp.com.br,(48) 97777-8888,Desenvolvedor(a) Pleno(a),TI,"R$ 8.200,00",30/11/2021,Solteiro(a),Florianópolis,SC,PJ,True,8200.0,Operacional
+F018,Henrique Castro,666.777.888-99,henrique.castro@talentcorp.com.br,(71) 98888-9999,Estagiário(a),Financeiro,"R$ 1.200,00",01/08/2024,Solteiro(a),Salvador,BA,Estágio,True,1200.0,Estagiário
+F019,Vanessa Oliveira,777.888.999-00,vanessa@,(11) 99999-0000,Gerente de RH,RH,"R$ 10.500,00",05/02/2015,Casado(a),São Paulo,SP,CLT,False,10500.0,Liderança
+F020,Bruno Lima Santos,888.999.000-11,bruno.santos@talentcorp.com.br,(19) 90000-1111,Analista Financeiro,Financeiro,"R$ 4.900,00",14/03/2022,Solteiro(a),Campinas,SP,CLT,True,4900.0,Operacional
