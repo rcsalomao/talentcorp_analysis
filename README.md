@@ -5,7 +5,7 @@ Trata-se da análise e considerações à cerca das questões propostas no docum
 
 A primeira parte corresponde às rotinas de ingestão, tratamento e limpeza dos dados brutos, encontradas no arquivo `./src/data_ingestion.py` e posterior escrita dos dados limpos por meio das rotinas encontradas em `./src/data_writing.py`.
 
-Posteriormente as questões propostas pelo documento de instrução são respondidas pelas respectivas rotinas encontradas nos arquivos `./src/parte_A_qualidade_dados.py`, `./src/parte_B_KPI.py`, `./src/parte_C_OKR.py`, `./src/parte_D_analise_propostas.py`.
+Por fim, as questões propostas pelo documento de instrução são respondidas pelas respectivas rotinas encontradas nos arquivos `./src/parte_A_qualidade_dados.py`, `./src/parte_B_KPI.py`, `./src/parte_C_OKR.py`, `./src/parte_D_analise_propostas.py`.
 
 ## Requisitos
 
