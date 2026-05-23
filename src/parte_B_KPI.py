@@ -9,7 +9,7 @@ def get_dataframe(file_name: str):
 
 
 def questao_4(df: pd.DataFrame):
-    print(">>> Questão 04:")
+    print(">>> Questão 04: Qual o salário médio por cargo?")
     print("O salário médio por cargo é descrito na seguinte tabela:")
     print(
         df.groupby("cargo")
@@ -21,7 +21,7 @@ def questao_4(df: pd.DataFrame):
 
 
 def questao_5(df: pd.DataFrame):
-    print(">>> Questão 05:")
+    print(">>> Questão 05: Qual o salário médio por departamento?")
     print("O salário médio por departamento é descrito na seguinte tabela:")
     print(
         df.groupby("departamento")
@@ -33,7 +33,7 @@ def questao_5(df: pd.DataFrame):
 
 
 def questao_6(df: pd.DataFrame):
-    print(">>> Questão 06:")
+    print(">>> Questão 06: Qual departamento tem a maior folha salarial total?")
     print("A folha salarial total por departamento é descrita na seguinte tabela:")
     print(
         df.groupby("departamento")
@@ -45,7 +45,7 @@ def questao_6(df: pd.DataFrame):
 
 
 def questao_7(df: pd.DataFrame):
-    print(">>> Questão 07:")
+    print(">>> Questão 07: Quantos funcionários por regime? Qual o percentual de cada um?")
     print("A quantidade de funcionários por regime é descrita na seguinte tabela:")
     df = df.groupby("regime").agg(total=("id", "count")).reset_index()
     df["percentual"] = df["total"] / df["total"].sum()
@@ -54,7 +54,7 @@ def questao_7(df: pd.DataFrame):
 
 
 def questao_8(df: pd.DataFrame):
-    print(">>> Questão 08:")
+    print(">>> Questão 08: Qual o funcionário com maior tempo de casa? (data de admissão mais antiga)")
     print("O tempo de permanência de cada funcionário é descrito na seguinte tabela:")
     df = df.copy()
     df["tempo_permanencia"] = dt.now() - pd.to_datetime(
@@ -69,7 +69,7 @@ def questao_8(df: pd.DataFrame):
 
 
 def questao_9(df: pd.DataFrame):
-    print(">>> Questão 09:")
+    print(">>> Questão 09: Quantos funcionários por departamento?")
     print(
         "A quantidade de funcionários por departamento é descrita na seguinte tabela:"
     )
@@ -83,7 +83,7 @@ def questao_9(df: pd.DataFrame):
 
 
 def questao_10(df: pd.DataFrame):
-    print(">>> Questão 10:")
+    print(">>> Questão 10: Qual cargo tem mais funcionários?")
     print("A quantidade de funcionários por cargo é descrita na seguinte tabela:")
     print(
         df.groupby("cargo")

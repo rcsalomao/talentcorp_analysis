@@ -3,7 +3,9 @@ import numpy as np
 
 
 def questao_11(df: pd.DataFrame):
-    print(">>> Questão 11:")
+    print(
+        ">>> Questão 11: Para cada KR acima, responda: a empresa está no caminho certo? Qual é o número atual vs a meta?"
+    )
     print("""
 O1-OKR1: Zerar as inconsistências cadastrais até o fim do mês:
 De acordo com o relatório de limpeza, foram encontradas diversas inconsistências cadastrais no dataset.
@@ -41,7 +43,9 @@ Considerando o valor alvo de ±10% para nivelação, entende-se que este OKR já
 
 
 def questao_12(df: pd.DataFrame):
-    print(">>> Questão 12:")
+    print(
+        ">>> Questão 12: Qual KR você considera mais urgente de endereçar? Justifique com os dados."
+    )
     print("""\
 Como já descrito, o objetivo O3-OKR2 já está contemplado.
 Neste sentido, entendo que é mais interessante adereçar os OKRs mais próximos de serem completados de tal maneira que seriam os objetivos O2-OKR1 e O2-OKR2.

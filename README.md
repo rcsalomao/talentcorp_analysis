@@ -47,7 +47,7 @@ Telefones corrigidos: 2
 >>> O arquivo de dataset limpo foi escrito com sucesso!
 === QUALIDADE DOS DADOS ===
 
->>> Questão 01
+>>> Questão 01: Quantos funcionários tinham e-mail inválido? Quais são eles?
 Total de funcionários com email inválido: 4
 Nome dos funcionários:
 Carlos Eduardo Mendes
@@ -55,7 +55,7 @@ Roberto Alves
 Beatriz Lima
 Vanessa Oliveira
 
->>> Questão 02
+>>> Questão 02: Quantos CPFs precisaram de normalização? Liste os formatos encontrados.
 Total de cpfs que foram corrigidos: 6
 Formatos de cpfs incorretos encontrados:
 98765432100
@@ -65,7 +65,7 @@ Formatos de cpfs incorretos encontrados:
 444-555-666/77
 666777888-99
 
->>> Questão 03
+>>> Questão 03: Quantos nomes tinham algum tipo de inconsistência? Quais eram os problemas mais comuns?
 Total de nomes que foram corrigidos: 14
 Total de nomes em maiúsculo:  7
 Total de nomes em minúsculo:  6
@@ -74,7 +74,7 @@ Total de nomes com espaços em branco externamente:  2
 
 === ANÁLISE DOS KPIS ===
 
->>> Questão 04:
+>>> Questão 04: Qual o salário médio por cargo?
 O salário médio por cargo é descrito na seguinte tabela:
                         cargo  salario_medio
 10              Gerente de TI   14500.000000
@@ -89,7 +89,7 @@ O salário médio por cargo é descrito na seguinte tabela:
 0          Analista Comercial    3800.000000
 6               Estagiário(a)    1200.000000
 
->>> Questão 05:
+>>> Questão 05: Qual o salário médio por departamento?
 O salário médio por departamento é descrito na seguinte tabela:
   departamento  salario_medio
 3           TI         8600.0
@@ -97,7 +97,7 @@ O salário médio por departamento é descrito na seguinte tabela:
 1   Financeiro         5500.0
 0    Comercial         4480.0
 
->>> Questão 06:
+>>> Questão 06: Qual departamento tem a maior folha salarial total?
 A folha salarial total por departamento é descrita na seguinte tabela:
   departamento    total
 3           TI  51600.0
@@ -105,14 +105,14 @@ A folha salarial total por departamento é descrita na seguinte tabela:
 2           RH  23500.0
 0    Comercial  22400.0
 
->>> Questão 07:
+>>> Questão 07: Quantos funcionários por regime? Qual o percentual de cada um?
 A quantidade de funcionários por regime é descrita na seguinte tabela:
     regime  total  percentual
 0      CLT     13        0.65
 1  Estágio      3        0.15
 2       PJ      4        0.20
 
->>> Questão 08:
+>>> Questão 08: Qual o funcionário com maior tempo de casa? (data de admissão mais antiga)
 O tempo de permanência de cada funcionário é descrito na seguinte tabela:
                       nome         tempo_permanencia departamento
 18        Vanessa Oliveira 4124 days 13:32:50.090048           RH
@@ -136,7 +136,7 @@ O tempo de permanência de cada funcionário é descrito na seguinte tabela:
 10            Beatriz Lima  858 days 13:32:50.090048           TI
 17         Henrique Castro  659 days 13:32:50.090048   Financeiro
 
->>> Questão 09:
+>>> Questão 09: Quantos funcionários por departamento?
 A quantidade de funcionários por departamento é descrita na seguinte tabela:
   departamento  total
 3           TI      6
@@ -144,7 +144,7 @@ A quantidade de funcionários por departamento é descrita na seguinte tabela:
 1   Financeiro      5
 2           RH      4
 
->>> Questão 10:
+>>> Questão 10: Qual cargo tem mais funcionários?
 A quantidade de funcionários por cargo é descrita na seguinte tabela:
                         cargo  total
 0          Analista Comercial      3
@@ -161,7 +161,7 @@ A quantidade de funcionários por cargo é descrita na seguinte tabela:
 
 === CONFRONTO COM OKRS ===
 
->>> Questão 11:
+>>> Questão 11: Para cada KR acima, responda: a empresa está no caminho certo? Qual é o número atual vs a meta?
 
 O1-OKR1: Zerar as inconsistências cadastrais até o fim do mês:
 De acordo com o relatório de limpeza, foram encontradas diversas inconsistências cadastrais no dataset.
@@ -194,7 +194,7 @@ Com o valor médio salarial de: 3800.0.
 Portanto, a diferença percentual dos valores salariais para sua média é de: [ 0.    2.63 -2.63].
 Considerando o valor alvo de ±10% para nivelação, entende-se que este OKR já está atendido.
 
->>> Questão 12:
+>>> Questão 12: Qual KR você considera mais urgente de endereçar? Justifique com os dados.
 Como já descrito, o objetivo O3-OKR2 já está contemplado.
 Neste sentido, entendo que é mais interessante adereçar os OKRs mais próximos de serem completados de tal maneira que seriam os objetivos O2-OKR1 e O2-OKR2.
 Com a conclusão do objetivo O2-OKR2, já se contempla automaticamente o objetivo O1-OKR1.
@@ -205,7 +205,7 @@ As possíveis alternativas, não exaustivas, já foram descritas anteriormente, 
 
 === ANÁLISE E PROSPOSTAS ===
 
->>> Questão 13
+>>> Questão 13: Crie pelo menos 2 KPIs que você acha relevantes e que NÃO foram pedidos acima. Justifique cada um.
 1º KPI: Quantidade e proporção de funcionários por nível:
 Como se calcula: 'Quantidade de funcionários por nível' / 'Total de funcionários'
          nivel  total  percentual
@@ -217,12 +217,12 @@ Como se calcula: 'Quantidade de funcionários por nível' / 'Total de funcionár
 Como se calcula: 'Somatório dos dados inconsistentes e inválidos' / 'Quantidade dos tipos de dados avaliados'
 Valor para este dataset: 7.8
 
->>> Questão 14:
+>>> Questão 14: Com base nos dados que você encontrou, proponha um novo OKR para o próximo trimestre. Use o formato: Objetivo + pelo menos 2 KRs mensuráveis.
 "OKR: Melhoria da qualidade cadastral dos dados da empresa, por meio da redução da 'taxa média de inconsistências cadastraris'."
 "Horizonte: Trimestral"
 "KPI base: Minimização do 2º KPI (Taxa média de inconsistências cadastrais) apresentado anteriormente. Quanto mais próximo de 0, melhor.
 
->>> Questão 15:
+>>> Questão 15: Se você fosse a Vanessa (Gerente de RH), qual seria sua prioridade nos próximos 30 dias? Justifique com dados.
 Levando em considerarção as questões anteriores e o curto prazo de 30 dias para a apresentação do relatório e resultados, entendo que o amis interessante seria completar num primeiro momento os objetivos mais fáceis.
 Neste primeiro momento creio que é plenamente possível realizar a execução do objetivo O1-OKR1 (zerar as inconsistências cadastrais) e iniciar os objetivos O2-OKR2 (reduzir PJs no TI de 4 para 2) e O2-OKR1 (atingir 70% dos funcionários em regime CLT).
 Para o objetivo O1-OKR1, entendo que uma estratégia eficaz consiste em realizar sessões regulares de treinamento e orientação para os funcionários responsáveis pelo registro, além da definição de protocolos e métodos para a execução da tarefa, a fim de minimizar e eliminar o surgimento das inconsistências cadastrais.

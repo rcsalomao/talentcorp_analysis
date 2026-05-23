@@ -2,7 +2,7 @@ import re
 
 
 def questao_1(log: dict):
-    print(">>> Questão 01")
+    print(">>> Questão 01: Quantos funcionários tinham e-mail inválido? Quais são eles?")
     print(
         f"Total de funcionários com email inválido: {len(log['validar_email']['emails_invalidos'])}"
     )
@@ -13,7 +13,7 @@ def questao_1(log: dict):
 
 
 def questao_2(log: dict):
-    print(">>> Questão 02")
+    print(">>> Questão 02: Quantos CPFs precisaram de normalização? Liste os formatos encontrados.")
     print(
         f"Total de cpfs que foram corrigidos: {len(log['normalizar_cpf']['cpfs_corrigidos'])}"
     )
@@ -24,7 +24,7 @@ def questao_2(log: dict):
 
 
 def questao_3(log: dict):
-    print(">>> Questão 03")
+    print(">>> Questão 03: Quantos nomes tinham algum tipo de inconsistência? Quais eram os problemas mais comuns?")
     print(
         f"Total de nomes que foram corrigidos: {len(log['padronizar_nome']['nomes_corrigidos'])}"
     )

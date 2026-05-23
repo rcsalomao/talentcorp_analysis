@@ -2,7 +2,9 @@ import pandas as pd
 
 
 def questao_13(df: pd.DataFrame, log: dict):
-    print(">>> Questão 13")
+    print(
+        ">>> Questão 13: Crie pelo menos 2 KPIs que você acha relevantes e que NÃO foram pedidos acima. Justifique cada um."
+    )
     print("1º KPI: Quantidade e proporção de funcionários por nível:")
     print(
         "Como se calcula: 'Quantidade de funcionários por nível' / 'Total de funcionários'"
@@ -35,7 +37,9 @@ def questao_13(df: pd.DataFrame, log: dict):
 
 
 def questao_14(df: pd.DataFrame):
-    print(">>> Questão 14:")
+    print(
+        ">>> Questão 14: Com base nos dados que você encontrou, proponha um novo OKR para o próximo trimestre. Use o formato: Objetivo + pelo menos 2 KRs mensuráveis."
+    )
     print("""\
 "OKR: Melhoria da qualidade cadastral dos dados da empresa, por meio da redução da 'taxa média de inconsistências cadastraris'."
 "Horizonte: Trimestral"
@@ -44,7 +48,9 @@ def questao_14(df: pd.DataFrame):
 
 
 def questao_15(df: pd.DataFrame):
-    print(">>> Questão 15:")
+    print(
+        ">>> Questão 15: Se você fosse a Vanessa (Gerente de RH), qual seria sua prioridade nos próximos 30 dias? Justifique com dados."
+    )
     print("""\
 Levando em considerarção as questões anteriores e o curto prazo de 30 dias para a apresentação do relatório e resultados, entendo que o amis interessante seria completar num primeiro momento os objetivos mais fáceis.
 Neste primeiro momento creio que é plenamente possível realizar a execução do objetivo O1-OKR1 (zerar as inconsistências cadastrais) e iniciar os objetivos O2-OKR2 (reduzir PJs no TI de 4 para 2) e O2-OKR1 (atingir 70% dos funcionários em regime CLT).
